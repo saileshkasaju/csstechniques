@@ -146,3 +146,17 @@ section:nth-of-type(3) {
 section:nth-of-type(4) {
   background-image: url('https://unsplash.it/1024/683?image=1032');  
 }
+
+/* for footer */
+nav {
+  /* column-count: 4;
+  column-width: 150px; */
+  columns: 4 150px;
+  column-gap: 3rem;
+  column-rule: 1px dashed #ccc;
+  column-fill: auto; /* or balanced */
+}
+  
+h2 {
+  column-span: all;
+}
