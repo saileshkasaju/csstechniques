@@ -20,6 +20,29 @@ section button {
   font-size: unset;
 }
 
+.Wrapper {
+  background-color: tomato;
+  background-blend-mode: multiply;  
+}
+@supports not (background-blend-mode: multiply) {
+  .Wrapper {
+    position: relative;
+  }
+  .Wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    z-index: 1;
+    background-color:  tomato;
+    opacity: 0.5;
+  }
+  .Wrapper p {
+    position: relative;
+    z-index: 2;
+  }
+}
+
 nav {
   position: fixed;
   top: 0; left: 0;
