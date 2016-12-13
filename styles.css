@@ -71,3 +71,33 @@ article p:nth-of-type(odd) {
   height: 40vh; /* height + margin = 100 */
   margin: 30vh 20vw 30vh 20vw;
 }
+
+section {
+  width:100vw;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} 
+
+section:nth-of-type(1) {
+  background-image: url('https://unsplash.it/1024/683?image=1068');  
+}
+
+section:nth-of-type(2) {
+  background-image: url('https://unsplash.it/1024/683?image=1073');  
+}
+
+section:nth-of-type(3) {
+  background-image: url('https://unsplash.it/1024/683?image=1047');  
+}
+
+section:nth-of-type(4) {
+  background-image: url('https://unsplash.it/1024/683?image=1032');  
+}
