@@ -64,3 +64,10 @@ blockquote:only-of-type {
 article p:nth-of-type(odd) { 
   color: maroon;
 }
+
+.Box {
+  background-color: slategray;
+  width: 60vw; /* width + margin = 100 */
+  height: 40vh; /* height + margin = 100 */
+  margin: 30vh 20vw 30vh 20vw;
+}
